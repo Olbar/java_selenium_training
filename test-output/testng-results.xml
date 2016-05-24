@@ -1,29 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20425" started-at="2016-05-14T20:09:22Z" finished-at="2016-05-14T20:09:42Z">
+  <suite name="Default suite" duration-ms="49552" started-at="2016-05-24T21:29:41Z" finished-at="2016-05-24T21:30:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20425" started-at="2016-05-14T20:09:22Z" finished-at="2016-05-14T20:09:42Z">
-      <class name="ru.stqa.selenium.LoginTest">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ru.stqa.selenium.LoginTest@77caeb3e]" name="initTestSuite" is-config="true" duration-ms="214" started-at="2016-05-14T23:09:22Z" finished-at="2016-05-14T23:09:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestSuite -->
-        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.LoginTest@77caeb3e]" name="initWebDriver" is-config="true" duration-ms="12300" started-at="2016-05-14T23:09:22Z" finished-at="2016-05-14T23:09:34Z">
+    <test name="Default test" duration-ms="49552" started-at="2016-05-24T21:29:41Z" finished-at="2016-05-24T21:30:31Z">
+      <class name="ru.stqa.selenium.SampleTestNgTest">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.SampleTestNgTest@5622fdf]" name="initWebDriver" is-config="true" duration-ms="6227" started-at="2016-05-25T00:30:10Z" finished-at="2016-05-25T00:30:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:ru.stqa.selenium.LoginTest@77caeb3e]" name="testLogin" duration-ms="8108" started-at="2016-05-14T23:09:34Z" finished-at="2016-05-14T23:09:42Z">
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:ru.stqa.selenium.SampleTestNgTest@5622fdf]" name="initPageObjects" is-config="true" duration-ms="101" started-at="2016-05-25T00:30:16Z" finished-at="2016-05-25T00:30:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.stqa.selenium.LoginTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="2177" started-at="2016-05-14T23:09:42Z" finished-at="2016-05-14T23:09:45Z">
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="testHomePageHasAHeader()[pri:0, instance:ru.stqa.selenium.SampleTestNgTest@5622fdf]" name="testHomePageHasAHeader" duration-ms="1557" started-at="2016-05-25T00:30:16Z" finished-at="2016-05-25T00:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageHasAHeader -->
+      </class> <!-- ru.stqa.selenium.SampleTestNgTest -->
+      <class name="ru.stqa.selenium.CreationFilmSuccess">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ru.stqa.selenium.CreationFilmSuccess@7cd62f43]" name="initTestSuite" is-config="true" duration-ms="198" started-at="2016-05-25T00:29:41Z" finished-at="2016-05-25T00:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.CreationFilmSuccess@7cd62f43]" name="initWebDriver" is-config="true" duration-ms="5665" started-at="2016-05-25T00:29:41Z" finished-at="2016-05-25T00:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testCreationFilmSuccess()[pri:0, instance:ru.stqa.selenium.CreationFilmSuccess@7cd62f43]" name="testCreationFilmSuccess" duration-ms="5172" started-at="2016-05-25T00:29:47Z" finished-at="2016-05-25T00:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreationFilmSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.stqa.selenium.CreationFilmSuccess@7cd62f43]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-05-25T00:30:31Z" finished-at="2016-05-25T00:30:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- ru.stqa.selenium.CreationFilmSuccess -->
+      <class name="ru.stqa.selenium.CreationFilmWithNotValidNumber">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.CreationFilmWithNotValidNumber@6d4b1c02]" name="initWebDriver" is-config="true" duration-ms="5056" started-at="2016-05-25T00:29:52Z" finished-at="2016-05-25T00:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testCreationFilmWithNotValidNumber()[pri:0, instance:ru.stqa.selenium.CreationFilmWithNotValidNumber@6d4b1c02]" name="testCreationFilmWithNotValidNumber" duration-ms="3489" started-at="2016-05-25T00:29:57Z" finished-at="2016-05-25T00:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreationFilmWithNotValidNumber -->
+      </class> <!-- ru.stqa.selenium.CreationFilmWithNotValidNumber -->
+      <class name="ru.stqa.selenium.CreationFilmWithoutYear">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.CreationFilmWithoutYear@7d9d1a19]" name="initWebDriver" is-config="true" duration-ms="6151" started-at="2016-05-25T00:30:21Z" finished-at="2016-05-25T00:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testCreationFilmWithoutYear()[pri:0, instance:ru.stqa.selenium.CreationFilmWithoutYear@7d9d1a19]" name="testCreationFilmWithoutYear" duration-ms="3745" started-at="2016-05-25T00:30:27Z" finished-at="2016-05-25T00:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreationFilmWithoutYear -->
+      </class> <!-- ru.stqa.selenium.CreationFilmWithoutYear -->
+      <class name="ru.stqa.selenium.LoginTest">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.LoginTest@4883b407]" name="initWebDriver" is-config="true" duration-ms="6" started-at="2016-05-25T00:30:18Z" finished-at="2016-05-25T00:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:ru.stqa.selenium.LoginTest@4883b407]" name="testLogin" duration-ms="3047" started-at="2016-05-25T00:30:18Z" finished-at="2016-05-25T00:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
       </class> <!-- ru.stqa.selenium.LoginTest -->
+      <class name="ru.stqa.selenium.DeleteFirstFilm">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.DeleteFirstFilm@6093dd95]" name="initWebDriver" is-config="true" duration-ms="5246" started-at="2016-05-25T00:30:01Z" finished-at="2016-05-25T00:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="testDeleteFirstFilm()[pri:0, instance:ru.stqa.selenium.DeleteFirstFilm@6093dd95]" name="testDeleteFirstFilm" duration-ms="4054" started-at="2016-05-25T00:30:06Z" finished-at="2016-05-25T00:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteFirstFilm -->
+      </class> <!-- ru.stqa.selenium.DeleteFirstFilm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
